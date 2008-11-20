@@ -1,0 +1,12 @@
+h1,h2,h3
+{
+  #font-family: Helvetica
+}
+
+table { background-color: lightgrey }
+th { background-color: grey }
+
+body { 
+  font-family: Helvetica
+}
+
