@@ -5,7 +5,7 @@ LaTeX preamble: preamble.tex
 [this_html]: http://media.build-doctor.com/rosetta-stone
 [this_pdf]: http://media.build-doctor.com/rosetta-stone/stone.pdf
 
-Build Rosetta Stone
+Build Tasks
 ===================
 
 Introduction
@@ -151,6 +151,15 @@ Other Tasks
 |XSLT/Style|style|.|.|
 
 [^optional]: This task has additional library dependencies
+
+Version Control Commands
+========================
+
+|SVN|CVS|Git|Mercurial|Perforce|
+|---|-----|-------|------|---|
+|svn export||git clone (and delete the .git dir)|.|.|
+|svn co|cvs co|git clone|.|p4 co|
+|svn ci||git commit && git push|.|p4 ci|
 
 Notes
 -----
