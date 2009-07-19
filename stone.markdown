@@ -14,7 +14,7 @@ The original Rosetta stone was discovered in Egypt in 1799, and controversially 
 
 What's on this stone?  Major tasks and commands from several build languages.
 
-Most build tools deal with a very similar problem in a familiar way.  So if you know one build tool, you probably don't want gory details on how to write a buld file - you just want to know about that task.   You know, that task? I know what it is in Ant ...   
+Most build tools deal with a very similar problem in a familiar way.  So if you know one build tool, you probably don't want gory details on how to write a build file - you just want to know about that task.   You know, that task? I know what it is in Ant ...   
 
 This document is available in  [HTML][this_html] and [PDF][this_pdf].
 
@@ -30,7 +30,7 @@ File Tasks
 |Chmod|attrib|.|.|Change permission bits on a file|
 |Concat|.|.|.|Concatenate files|
 |Copy|copy|Copy|cp|Copy files or directories|
-|Delete|delete|Delete,RemoveDir|rm, rm_r_|Remove files or directories|
+|Delete|delete|Delete,RemoveDir|rm, rm_r|Remove files or directories|
 |Dirname|.|.|.|Identify the directories that make up a path|
 |FixCRLF|.|.|.|Change the line ending of a file|
 |Filter|.|.|.|Replace tokens in files|
@@ -155,11 +155,11 @@ Other Tasks
 Version Control Commands
 ========================
 
-|SVN|CVS|Git|Mercurial|Perforce|
-|---|-----|-------|------|---|
-|svn export||git clone (and delete the .git dir)|.|.|
-|svn co|cvs co|git clone|.|p4 co|
-|svn ci||git commit && git push|.|p4 ci|
+|SVN|CVS|Git|Mercurial|Perforce|Desc|
+|---|-----|-------|------|---|---|
+|svn export|.|git clone (and delete the .git dir)|.|.|.|
+|svn co|cvs co|git clone|.|p4 co|.|
+|svn ci|cvs ci|git commit && git push|.|p4 ci|Stick it back in again|
 
 Notes
 -----
