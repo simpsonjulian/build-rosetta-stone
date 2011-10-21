@@ -14,7 +14,7 @@ The original Rosetta stone was discovered in Egypt in 1799, and controversially 
 
 What's on this stone?  Major tasks and commands from several build languages.
 
-Most build tools deal with a very similar problem in a familiar way.  So if you know one build tool, you probably don't want gory details on how to write a build file - you just want to know about that task.   You know, that task? I know what it is in Ant ...   
+Most build tools deal with a very similar problem in a familiar way.  So if you know one build tool, you probably don't want gory details on how to write a build file - you just want to know about that task.   You know, that task? I know what it is in Ant ...
 
 This document is available in  [HTML][this_html] and [PDF][this_pdf].
 
